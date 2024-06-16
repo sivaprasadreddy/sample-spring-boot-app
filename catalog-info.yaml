@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-spring-boot-app
+  title: sample-spring-boot-app
+  annotations:
+    github.com/project-slug: sivaprasadreddy/sample-spring-boot-app
+  tags:
+    - spring-boot
+    - java
+    - maven
+    - renovate
+spec:
+  type: service
+  owner: sivaprasadreddy.k@gmail.com
+  lifecycle: experimental
